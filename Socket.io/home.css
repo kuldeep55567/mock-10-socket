@@ -1,0 +1,95 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+    body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    
+}
+#chat-section{
+    width: 500px;
+    max-width: 90%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#chatting{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+button{
+    cursor: pointer;
+}
+#chatting h1{
+    font-size: 25px;
+    color: #444;
+    margin-left: 12px;
+}
+#message-area{
+    height: 500px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    padding-top: 40px;
+    
+}
+textarea{
+    width: 100%;
+    padding: 23px;
+    font-size: 18px;
+    outline: none;
+}
+.messageBet{
+    text-align: center;
+    font-size: 20px;
+}
+.incoming{
+    color:  black;
+    background: rgb(77, 160, 66);
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+.message{
+    padding: 20px;
+    border-radius: 4px;
+    margin-bottom: 40px;
+    max-width: 200px;
+    position: relative;
+}
+.outgoing{
+    margin-left: auto;
+    color:  rgb(63, 62, 62);
+    background: rgb(228, 211, 211);
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.message h4{
+    position: absolute;
+    top: -20px;
+    left: 0;
+    color: #333;
+    font-size: 16px;
+}
+#btn{
+    font-size: 25px;
+    background-color: rgb(198, 230, 17);
+    padding: 10px;
+    margin: auto;
+    display: block;
+    color: aliceblue;
+    border-radius: 10px;
+    border: 2px solid whitesmoke;
+    font-weight: 600;
+}
+h6{
+    text-align: center;
+    font-size: 20px;
+}
